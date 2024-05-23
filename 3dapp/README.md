@@ -19,7 +19,7 @@ This project is a 3D web application showcasing Coca Cola branded products using
 
 ## Setup Instructions
 1. **Clone the Repository:**
-   ```git clone https://github.com/yourusername/coca-cola-3d-app.git```
+   ```git clone https://github.com/id252/Ikenna.git```
    ```cd coca-cola-3d-app```
 2. **Set Up the Server:**
  - Ensure you have a web server with PHP support (e.g., Apache) and SQLite installed.
