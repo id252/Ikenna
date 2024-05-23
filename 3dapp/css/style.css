@@ -1,0 +1,59 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.x3dom-progress {
+    display: none !important;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+p {
+    font-size: 1.25rem;
+    margin: 0;
+}
+
+canvas {
+    height: 480px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+}
+
+canvas:focus {
+    outline: 0;
+}
+
+#modelViewer {
+    width: 100%;
+}

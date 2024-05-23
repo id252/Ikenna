@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE X3D PUBLIC "ISO//Web3D//DTD X3D 3.3//EN" "http://www.web3d.org/specifications/x3d-3.3.dtd">
+<X3D id="model" profile="Immersive" version="3.3">
+    <Scene>
+        <!-- Top Cap -->
+        <Transform translation="0 1.64 0">
+            <Shape>
+                <Appearance>
+                    <Material diffuseColor="#def5ed" specularColor="1 1 1" shininess="1" />
+                </Appearance>
+                <Cylinder height="0.08" radius="1" />
+            </Shape>
+        </Transform>
+        <!-- Tin Can Body -->
+        <Transform translation="0 0 0">
+            <Shape>
+                <Appearance>
+                    <Material diffuseColor="#ffffff" specularColor="1 1 1" shininess="1" />
+                    <ImageTexture url="coke.jpg" />
+                </Appearance>
+                <Cylinder height="3.2" radius="1" />
+            </Shape>
+        </Transform>
+        <!-- Bottom Cap -->
+        <Transform translation="0 -1.64 0">
+            <Shape>
+                <Appearance>
+                    <Material diffuseColor="#def5ed" specularColor="1 1 1" shininess="1" />
+                </Appearance>
+                <Cylinder height="0.08" radius="1" />
+            </Shape>
+        </Transform>
+    </Scene>
+</X3D>
