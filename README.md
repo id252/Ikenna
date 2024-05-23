@@ -31,6 +31,7 @@ This project is a 3D web application showcasing Coca Cola branded products using
    ```.tables```
    ```SELECT * FROM models;```
 7. **Access the App:** Open your web browser and navigate to `http://localhost/Ikenna/3dapp/view/index.html`.
+8. **GitHub:** `https://github.com/id252/Ikenna/tree/main`
 
 ## Usage
 - **Loading Models:** Click the buttons labeled "Coke", "Fanta", or "Sprite" to load the respective 3D models and display their information.
